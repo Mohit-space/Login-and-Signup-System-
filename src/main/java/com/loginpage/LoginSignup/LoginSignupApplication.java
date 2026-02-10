@@ -9,7 +9,6 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EntityScan("com.loginpage.LoginSignup.entity")
 @EnableJpaRepositories("com.loginpage.LoginSignup.repository")
 public class LoginSignupApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(LoginSignupApplication.class, args);
     }
